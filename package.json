@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  },
+
+ "scripts": {
+   "cypress": "npx cypress run --spec \"cypress/e2e/*.cy.js\"",
+   "cypress:chrome": "npx cypress run --browser chrome --spec \"cypress/e2e/*.cy.js\"",
+   "cypress:chrome:headed": "npx cypress run --browser chrome --headed --spec \"cypress/e2e/*.cy.js\"",
+   "cypress:open": "npx cypress open"
+ }
+
+
+}
+

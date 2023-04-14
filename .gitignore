@@ -1,0 +1,5 @@
+/cypress/screenshots/
+/cypress/videos/
+.idea/
+/node_modules
+/cypress/downloads
